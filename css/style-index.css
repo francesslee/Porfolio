@@ -1,0 +1,35 @@
+* {
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+		box-sizing: border-box;
+}
+html, body{ 
+	overflow-x: hidden; 
+}
+body {
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	color:#000000;
+}
+h1, h2, h3, h4, p { font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
+
+/* MEDIA FONT SIZES */
+h1 {
+	font-size: 50px;
+}
+h2 { font-size: 34px;
+}
+h3 {
+	font-size: 22px;
+}
+p {
+	font-size: 18px;
+}
+
+/* GRID */
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
