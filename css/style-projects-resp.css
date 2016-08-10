@@ -216,6 +216,15 @@ img.screen {
 	}
 }
 
+/* Restrain greeting width and re-center navlinks*/
+@media (min-width: 1177px) {
+ul.links {
+	width: 50%;
+	margin-right: 26%;
+	margin-top: 10px;
+	}
+}
+
 /* Restrain width of text for readability - MBA full width */
 @media (min-width: 1215px) {
 section {
