@@ -1,0 +1,228 @@
+* {
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+html, body{ 
+	min-width: 400px;
+	overflow-x: hidden; 
+	}
+body {
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	color:#000000;
+	}
+h1, h2, h3, h4, p { font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; }
+
+/* MEDIA FONT SIZES */
+/* Mobile */
+@media (min-width: 400px) {
+h1 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin: 5px auto;
+	}
+h2 { font-size: 22px;
+	text-align: left;
+	margin-left: 10px;
+	}
+p { font-size: 16px;
+	margin: 5px 10px 20px 10px;
+	line-height: 25px;
+	text-align: left;
+	}
+a { 
+	text-decoration: none;
+	color: #000000;
+	}
+li {
+	list-style-type: none;
+	display: inline-block;
+	}
+
+/* Header */
+.logo {
+	padding: 16px;
+	text-align: center;
+	}
+ul.links {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	}
+li.navlink {
+	padding: 10px;
+	font-size: 16px;
+	}
+
+/* Content */
+.title {
+	margin: 60px auto;
+	}
+section {
+	text-align: center;
+	margin: 20px;
+	}
+.summary {
+	padding-bottom: 30px;
+	}
+img.screen {
+	max-width: 320px;
+	margin: 30px 0px 36px 0px;
+	}
+span {
+	font-weight: bold;
+	}
+/* Custom Hanker: Reduce margin for 2 images in a row */
+.screen.comp {
+	margin-top: 0;
+	}
+/* Custom Hanker: Shift brand tile only to the right, and reduce top/bottom margin */
+.screen.brand {
+	margin: -10px 0 -10px -40px;
+}
+/* Custom Hanker: Increase margin for only text section */
+p.alltext {
+	margin-bottom: 60px;
+	}
+a.prototype {
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin-top: -10px;
+	color: #EE7600;
+}
+.back {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	}
+footer {
+	text-align: center;
+	}
+p.copyright {
+	font-size: 12px;
+	text-align: center;
+	}
+/* Grid */
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	}
+}
+
+/* Tablet */
+@media (min-width: 700px) {
+header {
+	overflow-x: hidden;
+	width: 100%;
+	background: #FFFFFF;
+	}
+section {
+	margin-right: 60px;
+	margin-left: 60px;
+	}
+.logo {
+	padding: 10px;
+	display: inline;
+	float: left;
+	}
+ul.links {
+	margin-right: 28%;
+	text-align: center;
+	float: right;
+	display: inline-block;
+	}
+.title {
+	margin: 70px auto;
+	width: 100%;
+	}
+img.screen {
+	max-width: 550px;
+	margin-left: 10px;
+	}
+a.prototype{ 
+	font-size: 18px;
+	}
+/* Custom for Plenty - No Image bottom padding for wireframe Prototype link */
+.prototype.wireframe {
+	padding-top: 10px;
+	padding-bottom: 36px; 
+}
+section.back {
+	font-size: 22px;
+	}
+}
+
+/* Tablet - Nav Re-Centering */
+@media (min-width: 800px) {
+	ul.links {
+	margin-right: 34%;
+	}
+}
+
+/* Full size viewport */
+@media (min-width: 1080px) {
+	header {
+	height: 80px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	}
+h1 {
+	font-size: 50px;
+	text-align: center;
+	margin: 0px;
+	}
+section {
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 90px;
+	}
+p {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: lighter;
+	}
+.logo {
+	margin: 15px;
+	}
+ul.links {
+	width: 45%;
+	margin-right: 28%;
+	margin-top: 7px;
+	}
+li.navlink {
+	padding: 13px 30px;
+	font-size: 20px;
+	}
+.title {
+	margin: 150px auto 100px;
+	}
+img.screen {
+	max-width: 840px;
+	margin-left: 0;
+	}
+.screen.brand {
+	margin-bottom: -60px;
+	}
+.screen.comp {
+	margin-top: 30px;
+	}
+section.back {
+	margin-top: -30px;
+	}
+}
+
+/* Restrain width of text for readability - MBA full width */
+@media (min-width: 1215px) {
+section {
+	margin-right: 240px;
+	margin-left: 240px;
+	}
+}

@@ -1,0 +1,294 @@
+* {
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+		box-sizing: border-box;
+}
+html, body{ 
+	min-width: 400px;
+	overflow-x: hidden; 
+}
+body {
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	color:#000000;
+}
+h1, h2, h3, h4, p { font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; }
+
+/* MEDIA FONT SIZES */
+/* Mobile */
+@media (min-width: 400px) {
+h1 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin: 5px auto;
+	}
+.greeting {
+	padding: 30px 30px;
+}
+h2 { font-size: 34px;
+	}
+/* Only used as my Email */
+h3 {
+	font-size: 22px;
+	}
+p { font-size: 16px;
+	margin: 5px 10px 10px;
+	line-height: 25px;
+	}
+a { 
+	text-decoration: none;
+	color: #000000;
+	}
+li {
+	list-style-type: none;
+	display: inline-block;
+	}
+
+/* Header */
+.logo {
+	padding: 16px;
+	text-align: center;
+	}
+ul.links {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	}
+.content {
+	padding-top: 30px;
+}
+li.navlink {
+	padding: 10px;
+	font-size: 16px;
+	}
+ 
+ /* Projects */	
+.opacity {
+	max-width: 370px;
+	margin-bottom: 5px;
+	}
+div.tileset {
+	text-align: center;
+	margin-bottom: 90px;
+	}
+.title {
+	font-weight: 700;
+	}
+
+/* About Me */
+.metadata {
+	margin-bottom: 30px;
+	font-size: 20px;
+	}
+	.hide {
+	display: none;
+	}
+section.aboutme {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	}
+h2.aboutme {
+	margin: 10px;
+	text-align: center;
+	}
+.item {
+	text-align: center;
+	}
+img.selfpic {
+	max-width: 220px;
+	}
+.bio {
+	text-align: left;
+	padding: 0 10%;
+	}
+
+/* Contact Me */
+.contactme {
+	text-align: center;
+	padding-bottom: 30px;
+	overflow-x: hidden;
+	}
+a.email {
+	text-decoration: underline;
+	}
+ul.socialmedia {
+	padding-left: 0;
+	}
+footer {
+	text-align: center;
+	}
+footer > p {
+	font-size: 12px;
+	}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	}
+}
+
+/* MEDIA FONT SIZES */
+/* Tablet */
+@media (min-width: 700px) {
+header {
+	overflow-x: hidden;
+	width: 100%;
+	background: #FFFFFF;
+	}
+.logo {
+	padding: 10px;
+	display: inline;
+	float: left;
+	}
+ul.links {
+	margin-right: 28%;
+	text-align: center;
+	float: right;
+	display: inline-block;
+	}
+.greeting {
+	padding: 60px;
+	}
+.opacity {
+	max-width: 550px;
+	margin-bottom: 15px;
+	}
+.metadata {
+	margin-bottom: 50px;
+	font-size: 22px;
+	}
+p {
+	margin: 5px 10px 10px 15px;
+	}
+}
+/* Tablet - Nav Re-Centering */
+@media (min-width: 800px) {
+	ul.links {
+	margin-right: 34%;
+	}
+}
+
+/* Full size viewport */
+@media (min-width: 1080px) {
+	header {
+	height: 80px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	}
+h1 {
+	font-size: 50px;
+	text-align: center;
+	margin: 0px;
+	}
+.greeting {
+	padding: 200px 50px;
+	margin: 0 auto;
+	width: 100%;
+	}
+.logo {
+	margin: 15px;
+	}
+ul.links {
+	width: 45%;
+	margin-right: 28%;
+	margin-top: 7px;
+	}
+li.navlink {
+	padding: 13px 30px;
+	font-size: 20px;
+	}
+.metadata {
+	text-align: left;
+	line-height: 34px;
+	margin-bottom: 60px;
+	vertical-align: top;
+	}
+/* Opacity changes when hovering over image link, taken from Mozilla */
+img.opacity {
+	margin-bottom: 15px;
+  	opacity: 1;
+  	filter: alpha(opacity=100); /* IE8 and lower */
+	}
+img.opacity:hover {
+  	opacity: 0.75;
+  	filter: alpha(opacity=50);
+	}
+.tile.hide {
+	display: none;
+	}
+/*Grid */
+/* Project section */
+.container {
+	position: static;
+}
+div.tileset {
+	padding-left: 20px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+div.tile {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+/* About me Section */
+section.aboutme {
+	padding-left: 20px;
+	text-align: center;
+	display: block;
+}
+.item {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+} 
+img.selfpic {
+	max-width: none;
+	}
+h2.aboutme {
+	margin-top: -9px;
+	margin-bottom: 15px;
+}
+.bio {
+	max-width: 360px;
+	padding: 0 0 0 30px;
+}
+p {
+	line-height: 30px;
+ 	}
+/* Contact info */
+.contactme {
+	text-align: center;
+	margin: 60px auto;
+}
+footer {
+	text-align: center;
+	height: 80px;
+}
+footer > p {
+	font-size: 14px;
+	line-height: 60px;
+	}
+}
+/* Restrain greeting width */
+@media (min-width: 1177px) {
+.greeting {
+	padding: 210px 180px;
+}
+ul.links {
+	width: 50%;
+	margin-right: 26%;
+	margin-top: 10px;
+	}
+}
+/* Show hidden tile again for MBA full width */
+@media (min-width: 1215px) {
+	.tile.hide {
+		display: inline-block;
+	}
+}
