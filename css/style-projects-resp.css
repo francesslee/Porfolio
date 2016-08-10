@@ -71,7 +71,7 @@ img.screen {
 	margin: 30px 0px 36px 0px;
 	}
 span {
-	font-weight: bold;
+	font-weight: 600;
 	}
 /* Custom Hanker: Reduce margin for 2 images in a row */
 .screen.comp {
