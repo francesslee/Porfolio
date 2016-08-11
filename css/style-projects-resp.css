@@ -85,7 +85,7 @@ span {
 p.alltext {
 	margin-bottom: 60px;
 	}
-a.prototype {
+a.linktofull {
 	font-weight: bold;
 	text-align: center;
 	display: block;
@@ -146,11 +146,11 @@ img.screen {
 	max-width: 550px;
 	margin-left: 10px;
 	}
-a.prototype{ 
+a.linktofull{ 
 	font-size: 18px;
 	}
 /* Custom for Plenty - No Image bottom padding for wireframe Prototype link */
-.prototype.wireframe {
+.linktofull.wireframe {
 	padding-top: 10px;
 	padding-bottom: 36px; 
 }
