@@ -47,12 +47,7 @@ li {
 /* Header */
 .logo {
 	padding: 16px;
-	text-align: center;
-	}
-ul.links {
-	text-align: center;
-	padding: 0;
-	margin: 0;
+	position: absolute;
 	}
 .content {
 	padding-top: 30px;
@@ -138,16 +133,9 @@ header {
 	width: 100%;
 	background: #FFFFFF;
 	}
-.logo {
-	padding: 10px;
-	display: inline;
-	float: left;
-	}
 ul.links {
-	margin-right: 28%;
 	text-align: center;
-	float: right;
-	display: inline-block;
+	position: relative;
 	}
 .greeting {
 	padding: 60px;
@@ -162,12 +150,6 @@ ul.links {
 	}
 p {
 	margin: 5px 10px 10px 15px;
-	}
-}
-/* Tablet - Nav Re-Centering */
-@media (min-width: 800px) {
-	ul.links {
-	margin-right: 34%;
 	}
 }
 
@@ -188,14 +170,6 @@ h1 {
 	padding: 200px 50px;
 	margin: 0 auto;
 	width: 100%;
-	}
-.logo {
-	margin: 15px;
-	}
-ul.links {
-	width: 45%;
-	margin-right: 28%;
-	margin-top: 7px;
 	}
 li.navlink {
 	padding: 13px 30px;
@@ -279,11 +253,6 @@ footer > p {
 @media (min-width: 1177px) {
 .greeting {
 	padding: 210px 180px;
-}
-ul.links {
-	width: 50%;
-	margin-right: 26%;
-	margin-top: 10px;
 	}
 }
 /* Show hidden tile again for MBA full width */
