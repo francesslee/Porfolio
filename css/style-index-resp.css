@@ -196,9 +196,6 @@ img.opacity:hover {
 	}
 /*Grid */
 /* Project section */
-.container {
-	position: static;
-}
 div.tileset {
 	padding-left: 20px;
 	text-align: center;
