@@ -182,6 +182,12 @@ h1 {
 	margin: 0 auto;
 	width: 100%;
 	}
+.logo {
+	margin: 15px;
+	}
+ul.links {
+	padding-top: 15px;
+	}
 li.navlink {
 	padding: 13px 30px;
 	font-size: 20px;
