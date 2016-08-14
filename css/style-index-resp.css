@@ -20,10 +20,9 @@ h1 {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
-	margin: 5px auto;
 	}
 .greeting {
-	padding: 30px 30px;
+	padding: 30px 15px;
 }
 h2 { font-size: 34px;
 	}
@@ -68,7 +67,7 @@ li.navlink {
  
  /* Projects */	
 .opacity {
-	max-width: 370px;
+	max-width: 300px;
 	margin-bottom: 5px;
 	}
 div.tileset {
