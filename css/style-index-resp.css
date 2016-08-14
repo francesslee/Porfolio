@@ -39,6 +39,9 @@ a {
 	text-decoration: none;
 	color: #000000;
 	}
+ul {
+	padding-left: 0;
+}
 li {
 	list-style-type: none;
 	display: inline-block;
@@ -52,7 +55,12 @@ li {
 	}
 .content {
 	padding-top: 30px;
-}
+	}
+ul.links {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	}
 li.navlink {
 	padding: 10px;
 	font-size: 16px;
@@ -108,9 +116,6 @@ img.selfpic {
 a.email {
 	text-decoration: underline;
 	}
-ul.socialmedia {
-	padding-left: 0;
-	}
 footer {
 	text-align: center;
 	}
@@ -135,7 +140,7 @@ header {
 	background: #FFFFFF;
 	}
 .logo {
-		position: absolute;
+	position: absolute;
 	}
 ul.links {
 	text-align: center;

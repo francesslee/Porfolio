@@ -35,6 +35,9 @@ a {
 	text-decoration: none;
 	color: #000000;
 	}
+ul {
+	margin-left: 0;
+}
 li {
 	list-style-type: none;
 	display: inline-block;
@@ -129,15 +132,12 @@ section {
 	margin-left: 60px;
 	}
 .logo {
-	padding: 10px;
-	display: inline;
-	float: left;
+	position: absolute;
 	}
 ul.links {
-	margin-right: 28%;
 	text-align: center;
-	float: right;
-	display: inline-block;
+	position: relative;
+	z-index: 9;
 	}
 .title {
 	margin: 70px auto;
@@ -161,12 +161,6 @@ section.back {
 	}
 }
 
-/* Tablet - Nav Re-Centering */
-@media (min-width: 800px) {
-	ul.links {
-	margin-right: 34%;
-	}
-}
 
 /* Full size viewport */
 @media (min-width: 1080px) {
@@ -194,11 +188,6 @@ p {
 .logo {
 	margin: 15px;
 	}
-ul.links {
-	width: 45%;
-	margin-right: 28%;
-	margin-top: 7px;
-	}
 li.navlink {
 	padding: 13px 30px;
 	font-size: 20px;
@@ -212,15 +201,6 @@ img.screen {
 	}
 .screen.comp {
 	margin-top: 30px;
-	}
-}
-
-/* Restrain greeting width and re-center navlinks*/
-@media (min-width: 1177px) {
-ul.links {
-	width: 50%;
-	margin-right: 26%;
-	margin-top: 10px;
 	}
 }
 
