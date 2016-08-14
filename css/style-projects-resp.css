@@ -35,9 +35,6 @@ a {
 	text-decoration: none;
 	color: #000000;
 	}
-ul {
-	margin-left: 0;
-}
 li {
 	list-style-type: none;
 	display: inline-block;
@@ -51,7 +48,6 @@ li {
 ul.links {
 	text-align: center;
 	padding: 0;
-	margin: 0;
 	}
 li.navlink {
 	padding: 10px;
@@ -137,6 +133,7 @@ section {
 ul.links {
 	text-align: center;
 	position: relative;
+	margin-top: 7px;
 	z-index: 9;
 	}
 .title {
@@ -187,6 +184,9 @@ p {
 	}
 .logo {
 	margin: 15px;
+	}
+ul.links {
+	margin-top: 10px;
 	}
 li.navlink {
 	padding: 13px 30px;
