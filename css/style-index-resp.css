@@ -145,6 +145,7 @@ header {
 ul.links {
 	text-align: center;
 	position: relative;
+	padding-top: 6px;
 	z-index: 9;
 	}
 .greeting {

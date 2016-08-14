@@ -133,7 +133,7 @@ section {
 ul.links {
 	text-align: center;
 	position: relative;
-	margin-top: 7px;
+	padding-top: 6px;
 	z-index: 9;
 	}
 .title {
@@ -186,7 +186,7 @@ p {
 	margin: 15px;
 	}
 ul.links {
-	margin-top: 10px;
+	padding-top: 15px;
 	}
 li.navlink {
 	padding: 13px 30px;
