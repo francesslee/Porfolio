@@ -135,7 +135,6 @@ footer > p {
 /* Tablet */
 @media (min-width: 700px) {
 header {
-	overflow-x: hidden;
 	width: 100%;
 	background: #FFFFFF;
 	}
