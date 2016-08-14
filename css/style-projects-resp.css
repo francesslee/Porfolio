@@ -48,6 +48,7 @@ li {
 ul.links {
 	text-align: center;
 	padding: 0;
+	margin: 0;
 	}
 li.navlink {
 	padding: 10px;
@@ -130,7 +131,6 @@ section {
 	position: absolute;
 	}
 ul.links {
-	text-align: center;
 	position: relative;
 	padding-top: 6px;
 	z-index: 9;
