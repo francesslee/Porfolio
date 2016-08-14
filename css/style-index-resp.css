@@ -78,7 +78,7 @@ div.tileset {
 /* About Me */
 .metadata {
 	margin-bottom: 30px;
-	font-size: 20px;
+	font-size: 18px;
 	}
 	.hide {
 	display: none;
@@ -90,9 +90,6 @@ section.aboutme {
 	}
 h2.aboutme {
 	margin: 10px;
-	text-align: center;
-	}
-.item {
 	text-align: center;
 	}
 img.selfpic {
