@@ -44,6 +44,9 @@ li {
 	padding: 16px;
 	text-align: center;
 	}
+.fllogo {
+	max-width: 110px;
+}
 ul.links {
 	text-align: center;
 	padding: 0;
