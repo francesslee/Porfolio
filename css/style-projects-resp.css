@@ -146,7 +146,6 @@ a.linktofull{
 /* Custom for Plenty - No Image bottom padding for wireframe Prototype link */
 .linktofull.wireframe {
 	padding-top: 10px;
-	padding-bottom: 36px; 
 }
 section.back {
 	font-size: 22px;
