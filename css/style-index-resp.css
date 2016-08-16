@@ -6,6 +6,7 @@
 html, body{ 
 	min-width: 320px;
 	overflow-x: hidden; 
+	width: 100%;
 }
 body {
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
@@ -114,6 +115,9 @@ footer {
 footer > p {
 	font-size: 12px;
 	}
+.socialmedia {
+	font-size: 18px;
+}
 .container {
 	margin-right: auto;
 	margin-left: auto;
