@@ -62,6 +62,10 @@ li.navlink {
 .title {
 	margin: 30px auto;
 	}
+.section {
+	padding-left: 5px;
+	padding-right: 5px;
+}
 .summary {
 	padding-bottom: 10px;
 }
