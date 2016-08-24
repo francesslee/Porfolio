@@ -262,7 +262,7 @@ footer > p {
 /* Restrain greeting width and re-center navlinks*/
 @media (min-width: 1177px) {
 .greeting {
-	padding: 210px 180px;
+	padding: 210px 220px;
 	}
 }
 /* Show hidden tile again for MBA full width */
