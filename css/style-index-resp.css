@@ -260,6 +260,7 @@ footer > p {
 	line-height: 60px;
 	}
 }
+
 /* Restrain greeting width and re-center navlinks*/
 @media (min-width: 1177px) {
 .greeting {
