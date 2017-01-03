@@ -197,6 +197,7 @@ li.navlink {
 /* Opacity changes when hovering over image link, taken from Mozilla */
 img.opacity {
 	margin-bottom: 15px;
+	max-height: 340px;
   	opacity: 1;
   	filter: alpha(opacity=100); /* IE8 and lower */
 	}
